@@ -105,15 +105,5 @@ int main() {
     myfile << "recursive omp fix 1 thread time " << dtime <<", results "<< result << endl;
    
     myfile.close();
-    
-    string buff;
-    ifstream fin("datain.dat");
-    if (fin==NULL) {
-        cout << "Error loading file \n";
-    }
-    else {
-        fin >> buff;
-        cout << buff << endl;
-    }
-    
+
 }
