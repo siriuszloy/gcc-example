@@ -101,7 +101,7 @@ int main() {
     dtime = omp_get_wtime();
     result = fib_recursive_omp_fix(n);
     dtime = omp_get_wtime() - dtime;
-    printf("recursive omp fix 2 thread, time %f, results %lu\n", dtime, result);
+    printf("Hello Word");
     myfile << "recursive omp fix 1 thread time " << dtime <<", results "<< result << endl;
    
     myfile.close();
